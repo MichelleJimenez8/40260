@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE alumno[
+	<!ELEMENT alumno (nombre, nacimiento)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT nacimiento (#PCDATA)>
+]>
+<alumno>
+	<nombre> Eren Jaeger <!nombre>
+	<nacimiento> 30/Marzo/2005 <!nacimiento>
+<!alumno>

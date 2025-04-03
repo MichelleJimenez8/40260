@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE alumnos [
+    <!ELEMENT alumnos (alumno+)>
+    <!ELEMENT alumno (nombre, nacimiento)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nacimiento (#PCDATA)>
+
+	<!ATTLIST alumno
+	id ID #REQUIRED
+	edad CDATA #IMPLIED
+	becado(si|no) "no">
+]>
+
+<alumnos>
+    <alumno id="a1" edad="18" becado="si">
+        <nombre>Eren Jager</nombre>
+        <nacimiento>1990-01-01</nacimiento>
+    </alumno>
+	<alumno id="a2" edad="20" becado="si">
+ 		<nombre>Michelle Jimenez</nombre>
+    	<nacimiento>2005-01-08</nacimiento>
+	</alumno>
+	<alumno id="a3" edad="20" becado="no">
+    	<nombre>Pablo Arnaud</nombre>
+    	<nacimiento>2004-05-23</nacimiento>
+	</alumno>
+	<alumno id="a4" edad="17" becado="no">
+    	<nombre>Vanessa Muñoz</nombre>
+    	<nacimiento>1998-01-01</nacimiento>
+	</alumno>
+</alumnos>
