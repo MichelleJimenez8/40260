@@ -1,0 +1,11 @@
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="alumnos.xsd">
+	<alumno>
+ 		<nombre>Michelle Jimenez</nombre>
+    	<nacimiento>2005-01-08</nacimiento>
+	</alumno>
+	<alumno>
+    	<nombre>Vanessa Muñoz</nombre>
+    	<nacimiento>2005-01-08</nacimiento>
+	</alumno>
+</alumnos>
